@@ -1,3 +1,35 @@
+.contenedor{
+    text-align: center;
+    background: black;
+    width: 280px;
+    margin: auto;
+}
+.contenedor div{
+    font-family: 'Press Start 2P', cursive;
+    display:inline-block;
+    font-size: 20px;
+    line-height: 20px;
+    background: #101010;
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    
+}
+
+
+@keyframes anim{
+ 
+  100% {color: rgb(14, 52, 20);} /*Otra vez amarillo*/
+  75% {color: rgb(15, 57, 21);} /*Otra vez naranja*/
+  50% {color: rgb(29, 107, 41);} /*Negro*/
+  25% {color: rgb(48, 183, 68);} /*Naranja*/
+  0% {color: rgb(63, 247, 90);} /*Amarillo*/
+  
+}
+.contenedor div {
+  animation-name: anim;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;}
 
 /* 
 
